@@ -1,7 +1,8 @@
 @import url(fontawesome-all.min.css);
 /*@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");*/
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue");
-
+/*@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue");
+*/
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&display=swap");
 
 /*
 	Spectral by HTML5 UP
@@ -28,7 +29,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-h1, h2, h3, h4 {
+/*h1, h2, h3, h4 {
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 0.15em;
 }
@@ -37,7 +38,7 @@ h1, h2, h3, h4 {
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 0.08em;
 }
-
+*/
 
 
 article, aside, details, figcaption, figure,
@@ -4012,6 +4013,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
