@@ -3684,6 +3684,11 @@ input, select, textarea {
 				width: 1.5em;
 			}
 
+#banner.video-banner video {
+  opacity: 0;
+  animation: bannerFadeIn 2s ease-in-out forwards;
+}
+
 		#banner:after {
 			pointer-events: none;
 			-moz-transition: opacity 3s ease-in-out;
@@ -3704,7 +3709,18 @@ input, select, textarea {
 			top: 0;
 			opacity: 0;
 		}
+@keyframes bannerFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
+#banner {
+  animation: bannerFadeIn 1.5s ease-in-out forwards;
+}
 		@media screen and (max-width: 736px) {
 
 			#banner {
@@ -3998,5 +4014,6 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
