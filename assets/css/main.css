@@ -112,7 +112,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #fff;
 		font-family: "Bebas Neue", Helvetica, sans-serif;
-		font-size: 15pt;
+		font-size: 20pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
 		line-height: 1.65em;
@@ -4005,6 +4005,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
