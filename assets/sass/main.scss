@@ -1722,6 +1722,42 @@
 		}
 	}
 
+
+
+#banner.video-banner {
+  position: relative;
+  overflow: hidden;
+}
+
+#banner.video-banner video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 0;
+}
+
+#banner.video-banner .video-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  );
+  z-index: 1;
+}
+
+#banner.video-banner .inner,
+#banner.video-banner .more {
+  position: relative;
+  z-index: 2;
+}
+
 /* CTA */
 
 	#cta {
@@ -1930,4 +1966,5 @@
 				background-color: darken(_palette(bg), 8);
 			}
 		}
+
 	}
