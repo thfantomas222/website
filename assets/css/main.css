@@ -1867,7 +1867,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #000000;
+			box-shadow: 0 0 0 2px ##2e3842;
 		}
 
 	select {
@@ -1964,7 +1964,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #000000;
+			box-shadow: 0 0 0 2px ##2e3842;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2495,7 +2495,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #000000;
+			background-color: ##2e3842;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2825,7 +2825,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #000000;
+			background-color: ##2e3842;
 			color: #c8ece9;
 		}
 
@@ -2879,7 +2879,7 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #000000;
+					background: ##2e3842;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -2895,7 +2895,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #000000;
+				color: ##2e3842;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -3359,7 +3359,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #000000;
+		background: ##2e3842;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -4005,6 +4005,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 
 
 
