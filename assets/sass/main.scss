@@ -1758,6 +1758,17 @@
   z-index: 2;
 }
 
+@include breakpoint('<=small') {
+  #banner.video-banner video {
+    display: none;
+  }
+
+  #banner.video-banner {
+    background-image: url("../../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
 /* CTA */
 
 	#cta {
@@ -1968,4 +1979,5 @@
 		}
 
 	}
+
 
